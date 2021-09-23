@@ -1,6 +1,6 @@
 // Lab_02.cpp
 // < Жураковський Артем >
-// Лабораторна робота № 2.
+// Лабораторна робота № 2.1
 // Лінійні програми.
 // Варіант 5
 #include <iostream>
@@ -11,16 +11,16 @@ using namespace std;
 int main()
 {
 	double a; //вхідний параметр
-	// double z1; //результ обчисл 1-го виразу
+	double z1; //результ обчисл 1-го виразу
 	double z2; // результат обчислення 2-го виразу
 
 	cout << "a= "; cin >> a;
 
-	// z1 = 1 - 1./4 * sin(2*a) * sin(2*a) + cos(2*a);
+	z1 = 1 - 1./4 * sin(2*a) * sin(2*a) + cos(2*a);
 	z2 = (cos(a) * cos(a)) + (cos(a) * cos(a) * cos(a) * cos(a));
 
 	cout << endl;
-	// cout << "z1 = " << z1 << endl;
+	cout << "z1 = " << z1 << endl;
 	cout << "z2 = " << z2 << endl;
 
 	cin.get();
